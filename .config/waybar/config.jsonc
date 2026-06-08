@@ -1,0 +1,30 @@
+// -*- mode: jsonc -*-
+{
+    "height": 42, // Waybar height (to be removed for auto height)
+    "margin-top": 6,
+    "margin-left": 6,
+    "margin-right": 6,
+    "spacing": 0,
+    "include": [
+        "./modules/groups.jsonc",
+        "./modules/storage.jsonc",
+        "./modules/system.jsonc",
+        "./modules/workspace.jsonc",
+        "./modules/audio.jsonc",
+        "./modules/connections.jsonc",
+        "./modules/clock.jsonc",
+        "./modules/tray-notif.jsonc"
+    ],
+    "modules-left": [
+        "group/storage",
+        "group/system",
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "group/audio",
+        "group/connections",
+        "clock",
+    ],
+}
