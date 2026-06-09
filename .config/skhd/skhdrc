@@ -1,0 +1,17 @@
+# focus space by label
+cmd - 1 : yabai -m space --focus web
+cmd - 2 : yabai -m space --focus code
+cmd - 3 : yabai -m space --focus notes
+cmd - 4 : yabai -m space --focus media
+cmd - 5 : yabai -m space --focus other
+
+# move window to space
+cmd - 1 : yabai -m window --space web --focus
+cmd - 2 : yabai -m window --space code --focus
+cmd - 3 : yabai -m window --space notes --focus
+cmd - 4 : yabai -m window --space media --focus
+cmd - 5 : yabai -m window --space other --focus
+
+# configure apps
+alt - q : open -na ghostty
+alt - w : open -na Zen
